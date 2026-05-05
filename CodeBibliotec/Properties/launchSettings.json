@@ -1,0 +1,27 @@
+﻿{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "http": {
+        "commandName": "Project",
+        "dotnetRunMessages": true,
+        "launchBrowser": true,
+        // launchUrl é o caminho que será aberto no navegador quando a aplicação for iniciada. No caso, "swagger" indica que a URL http://localhost:5054/swagger será aberta.
+        "launchUrl": "swagger",
+        // applicationUrl define as URLs nas quais a aplicação estará escutando. Neste caso, a aplicação estará disponível em http://localhost:5054.
+        "applicationUrl": "http://localhost:5054",
+        "environmentVariables": {
+            "ASPNETCORE_ENVIRONMENT": "Development"
+        }
+    },
+    "https": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+        "launchBrowser": true,
+        "launchUrl": "swagger",
+      "applicationUrl": "https://localhost:7294;http://localhost:5054",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
